@@ -3,3 +3,5 @@ const obj1 ={
     age :19,
     standard: "TYbca"
 }
+
+console.log(typeof obj1["fullname"]);
