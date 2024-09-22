@@ -1,7 +1,8 @@
 
 //  if-else
 
-const  budget =prompt("Enter Your Budget An i Let You Know Which Compact Car Youn Can Afford.")
+const  budget = Number(prompt("Enter Your Budget An i Let You Know Which Compact Car Youn Can Afford."))
+
 
 if (budget >= 500000 && budget <= 1500000){
 
@@ -15,17 +16,15 @@ if (budget >= 500000 && budget <= 1500000){
 
     console.log("you have an exxellent budget of " +budget+ " so you can buy a highEnd luxury SUV Car")
 
-} else if (budget < 500000){
+} else if (budget < 500000 && budget >= 1){
 
     console.log("So sorry your budget is below 5lakh so you cant buy any of this")
+    
 
     // this will execute if there will be no input by the user
-
-} else if (prompt() == " "){
-    alert("Enter Your Budget First")
-}
+} 
 
 else {
-    console.log("got by a cycle you r broke")
+    console.log("enter your budget first")
 }
 
