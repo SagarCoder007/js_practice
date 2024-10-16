@@ -45,3 +45,20 @@
 //     console.log('hello im back')
 // }
 // abc()
+
+// array 
+
+let arr=[10,20,30,40,50]
+
+console.log(arr)
+
+
+let arr1=[10,'sagar',30,'maheshTechnicals',50]
+
+console.log(arr1.length)
+
+arr1.push(85)
+console.log(arr1)
+
+arr1.pop()
+console.log(arr1)
