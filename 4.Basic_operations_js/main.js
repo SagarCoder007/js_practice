@@ -48,17 +48,48 @@
 
 // array 
 
-let arr=[10,20,30,40,50]
+// let arr=[10,20,30,40,50]
 
-console.log(arr)
+// console.log(arr)
 
 
-let arr1=[10,'sagar',30,'maheshTechnicals',50]
+// let arr1=[10,'sagar',30,'maheshTechnicals',50]
 
-console.log(arr1.length)
+// console.log(arr1.length)
 
-arr1.push(85)
-console.log(arr1)
+// arr1.push(85)
+// console.log(arr1)
 
-arr1.pop()
-console.log(arr1)
+// arr1.pop()
+// console.log(arr1)
+
+// for each array 
+
+// let arr = [10,24,35,67,76]
+// arr.forEach(function(r){
+//   console.log(r)
+// })
+
+// objects 
+
+// let user= {
+//     username:"sagar",
+//     age:30,
+//     division:"B",
+//     birth:"december"
+
+// }
+// console.log(user)
+
+let user2= {
+    username:"suraj",
+    age:50,
+    division:"a",
+    birth:"april",
+    wave:function(){
+        console.log("good morning")
+        return 10
+    }
+
+}
+console.log(user2.wave())
