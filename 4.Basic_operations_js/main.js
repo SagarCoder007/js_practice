@@ -81,15 +81,60 @@
 // }
 // console.log(user)
 
-let user2= {
-    username:"suraj",
-    age:50,
-    division:"a",
-    birth:"april",
-    wave:function(){
-        console.log("good morning")
-        return 10
-    }
+// let user2= {
+//     username:"suraj",
+//     age:50,
+//     division:"a",
+//     birth:"april",
+//     wave:function(){
+//         console.log("good morning")
+//         return 10
+//     }
 
-}
-console.log(user2.wave())
+// }
+// console.log(user2.wave())
+
+// array of objects 
+//  let arr = [
+//    {name:"sagar",age:20},
+//    {name:"sarthak",age:23},
+//    {name:"amit",age:41},
+//    {name:"suraj",age:33}
+
+//  ]
+//  console.log(arr[2].age)
+
+ // DOM {DOCUMENT OBJECT MOEL }........
+
+ /*  
+   4  pillars of DOM
+   ---Selection of an Element.
+   ---Changing HTML.
+   ---Changing CSS.
+   ---Handling Event Listener.
+   
+ */
+// 1... selection of an element 
+
+//   let a= document.querySelector("h1")    
+//   console.log(a)
+ 
+ // 2... changing HTML
+
+//  let b =document.querySelector('h1')
+//  b.innerHTML=('changed')
+
+ // 3... changing CSS
+
+//  let c = document.querySelector('h1')
+//  c.style.color='red'
+
+ // 4... Event Listener 
+
+ let d = document.querySelector('h1')
+
+  d.addEventListener('dblclick',function(){
+   d.style.backgroundColor='white'
+   d.style.Color='red'
+    d.innerHTML=("changed")
+  })
